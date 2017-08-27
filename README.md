@@ -1,7 +1,16 @@
 # jquery_ajax_wrapper
 Ajax wrapper for JQuery. This javascript have as finallity code reuse and make it simpler.
 
-Usage
+Install
+-------
+
+* Open the file ajax.js
+* Copy the function wrapper_ajax inside your code and rename it
+* Copy the constant DEFAULT_SETTINGS inside your code and edit/add the options to match your preferences
+* Copy the function default_error inside your code and edit the code to match your preferences
+
+
+Comparison
 -------
 ```javascript
 	var data = {
@@ -32,3 +41,11 @@ Usage
 	});
 ```
 
+
+Test
+-------
+* You can download the zip file in the folder test
+* It contains a little web server for test purposes
+* You need PHP
+* Copy it in a web server directory. Example: /var/www/html/test in Apache
+* Start the tests

@@ -14,5 +14,5 @@ function wrapper_ajax(url, data, callback, options = {}){
 }
 
 function default_error(jqXHR, status, error){
-	console.error(''.concat(error, ' ', status));
+	console.error(error +  ' ' +  status);
 }
